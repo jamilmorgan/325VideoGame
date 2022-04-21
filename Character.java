@@ -1,4 +1,4 @@
-abstract class Character {
+public class Character {
 
     String Name;
     Integer Health;
@@ -28,5 +28,5 @@ abstract class Character {
         Skills = skills;
     }
 
-    
+
 }
