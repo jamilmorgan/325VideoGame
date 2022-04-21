@@ -14,12 +14,4 @@ public class Hero extends Character {
 
 
     }
-
-    @Override
-    public String attack(Integer Selection) {
-
-        String [] Skill = this.getSkills();
-
-        return Skill[Selection];
-    }
 }
