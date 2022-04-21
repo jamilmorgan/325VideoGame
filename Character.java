@@ -28,6 +28,5 @@ abstract class Character {
         Skills = skills;
     }
 
-    public abstract String attack(Integer Selection);
-    //public abstract Integer guard();
+    
 }
