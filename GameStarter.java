@@ -2,9 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 public class GameStarter extends JFrame implements ActionListener {
-    JPanel pnlContain;
-    JButton btnStart, btnAbout;
-
+    JPanel pnlContain, jp;
+    JButton btnStart, btnAbout, jb;
+    JFrame jf;
+    
     public GameStarter () {
         Container cp = getContentPane();
 
@@ -26,9 +27,9 @@ public class GameStarter extends JFrame implements ActionListener {
         if (evt.getSource() == btnStart) {
            JTextArea GameSession;
 
-            JFrame jf = new JFrame();
-            JPanel jp = new JPanel();
-            JButton jb = new JButton("Just click it");
+            jf = new JFrame();
+            jp = new JPanel();
+            jb = new JButton("Just click it");
             jb.addActionListener(this);
             GameSession = new JTextArea(10,20);
             GameSession.setLineWrap(true);
@@ -45,9 +46,11 @@ public class GameStarter extends JFrame implements ActionListener {
             jf.setSize(500,500);
             jf.setVisible(true);
 
-        }
-        if (evt.getSource() == btnAbout) {
 
+
+        }
+        if (evt.getSource() == jb) {
+            System.out.println("Hello");
 
         }
 
