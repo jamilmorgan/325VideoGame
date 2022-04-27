@@ -28,4 +28,6 @@ abstract class Location {
     public void setLocationTemp(String locationTemp) {
         LocationTemp = locationTemp;
     }
+
+    abstract String randomEncounter1();
 }
