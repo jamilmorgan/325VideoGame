@@ -6,7 +6,7 @@ public class Hero extends Character {
 
     public Hero() {
         this.setDescription("You are the hero tasked with retrieving the Kingdom's National Treasure");
-        this.setHealth(100);
+        this.setHealth(80);
         this.setCurrency(200);
         Weapon = new Weapon("Fists","A Strong punch with all of your might", 20);
     }

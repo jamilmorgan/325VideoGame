@@ -30,4 +30,7 @@ abstract class Location {
     }
 
     abstract String randomEncounter1();
+    abstract String randomEncounter2();
+    abstract String randomEncounter3();
+    abstract String randomEncounter4();
 }
